@@ -6,7 +6,7 @@ import AIAgentPage from "./pages/AIAgentPage"
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/MyPortfolio">
       <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
